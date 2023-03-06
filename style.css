@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+
+body {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #232323;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h1,
+h2 {
+  color: #fff;
+  font-family: "Tilt Warp", cursive;
+}
+
+h2 {
+  font-size: 100px;
+}
+
+.button button {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.1s ease;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.button button:hover {
+  transform: scale(1.1);
+  transition: 0.1s ease;
+  background-color: aqua;
+  color: #000;
+}
